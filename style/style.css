@@ -1,0 +1,793 @@
+/****************** index *******************/
+
+body{
+    width: 2100pxpx;
+    margin:auto;
+    font-size:25px;
+    
+}
+
+
+#grand_titre{
+    text-align:center;
+}
+
+#premier_bloc_page, #deuxieme_bloc_page {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width:1700px;
+}
+
+
+
+.bloc{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.blo1{
+    margin-right:10px;
+    width:100%;
+    background-color:rgb(154, 247, 185);
+    padding:2px;
+    
+ 
+}
+/****************** index *******************/
+
+.titre{
+    background-color:rgb(17, 12, 12);
+    padding:10px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+
+
+#premier_bloc_p{
+    display:flex;
+    flex-direction: space-around;
+    flex-wrap:wrap;
+    width:2000px;
+    margin:auto;
+}
+
+
+#bloc_1, #bloc_2, #bloc_3, #bloc_4, #bloc_5, #bloc_6
+{
+    margin:10px;
+    padding:10px;
+    
+  
+} 
+
+/***GRILLE IDENTIFICATION*******/
+.conteneur{
+    display:flex;
+    flex-direction: column;
+    padding-bottom:20px;
+    padding-top:10px
+    
+}
+
+.contenu{
+    margin-left: 20px;
+}
+
+.content{
+    display:flex;
+}
+
+#identification_des_risques
+{
+  background-color:rgb(154, 247, 185);
+}
+
+#Evaluation_du_risque{
+    background-color: rgb(154, 247, 185);
+}
+
+#maitrise_du_risque{
+    background-color: rgb(154, 247, 185);
+}
+
+#plan_action{
+    background-color: rgb(154, 247, 185);
+}
+
+.textarea1{
+    width:100%;
+}
+
+#bouton_envoyer{
+   margin:auto;
+   width:200px;
+  height:50px;
+}
+
+
+
+.selection{
+    width:250px;
+    height:30px;
+}
+
+input{
+    width:300px;
+    height:30px
+}
+
+.bloc_chiffre{
+    background-color:rgb(154, 247, 185);
+    padding-right:10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 3px;
+   
+}
+
+.resultat_critere_risque_maitrise{
+    background-color: rgb(13,166,80);
+    margin-top: 10px;
+}
+
+
+.resultat_critere_risque_modere{
+    background-color: rgb(245,189,13);
+    margin-top: 10px;
+}
+
+
+.resultat_critere_risque_majeur{
+    background-color: rgb(232,11,15);
+    margin-top: 10px;
+}
+
+
+/************** RISQUE EVALUE ********************/
+.barre_recherche_risque{
+    display:flex;
+    padding:5px;
+}
+
+.fenetre_menu_1{
+    cursor:pointer;
+}
+
+.fenetre_menu_2{
+    cursor:pointer;
+}
+
+#barre_recherche_niveau_frequence_conteneur{
+    display:flex;
+}
+
+#barre_recherche{
+    display:flex;
+}
+
+#barre_recherche_niveau_gravite_conteneur{
+    display:flex;
+}
+
+#barre_recherche_niveau_maitrise_conteneur{
+    display:flex;
+}
+
+#barre_recherche_niveau_risque_conteneur{
+    display:flex;
+}
+
+#barre_recherche_echeance_conteneur{
+    display:flex;
+}
+
+#barre_recherche{
+    font-size: 23px;;
+}
+
+.marge{
+    padding-left:1px;
+}
+
+#bloc_recherche{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom:20px;
+}
+
+.content_barre_action
+{
+    display:flex;
+    flex-direction: rows;
+    
+}
+
+/*tableau*/
+.entete{
+    font-weight:bold;
+    background-color:rgb(154, 247, 185);
+    color:black;
+ }
+
+.tableau{
+    display:table;
+    width:1700px;
+ /*   background-color: */
+    margin:auto;
+    font-family:arial;
+ }
+
+ .ligne{
+    display:table-row;
+ }
+
+
+ .cellule{
+    display:table-cell;
+    text-align:center;
+    border:1px solid #000;
+    padding:10px;
+ }
+
+ #ent{
+    font-weight:bold;
+    background-color: #666;
+    color:#FFF;
+ }
+
+ #corps{
+    display:table-row-group;
+ }
+
+ .entet{
+    display:table-header-group;
+ }
+
+
+ .espace{
+    margin-bottom: 30px;
+ }
+ /*tableau*/
+
+#origines{
+   
+    font-size:0.7em;
+    text-align:center;
+    padding:5px;
+}
+
+#risque_danger{
+    font-size:0.7em;
+    padding:5px;
+    text-align:center;
+}
+
+#dommages{
+    font-size:0.7em;
+    padding:5px;
+    text-align:center;
+}
+
+#accident{
+    font-size:0.7em;
+    padding:5px;
+    text-align:center;
+}
+
+#niveau_frequence{
+    font-size:0.7em;
+    padding:5px;
+    text-align:center;
+}
+
+
+#niveau_gravite{
+    font-size:0.7em;
+    padding:5px;
+    text-align:center;
+}
+
+
+#niveau_risque{
+    font-size:0.7em;
+    padding:5px;
+    text-align:center;
+}
+
+
+#prop_mesures{
+    font-size:0.7em;
+    padding:5px;
+    text-align:center;
+}
+
+
+.bloc_action_1{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+  
+}
+
+.identif{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.titre_barre_action{
+    font-size: 0.8em;;
+}
+
+
+
+/************** RISQUE EVALUE ********************/
+
+#parametre_content{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.parametre_contenu{
+    padding:10px;
+   
+}
+
+
+.param_img{
+    width:150px;
+}
+
+
+/*************** PARAMETRE IDENTITE *****************/
+#bouton_form{
+    text-align: center;
+}
+
+
+#test{
+    background-color: red;
+}
+
+
+
+
+/************** PARAMETRE IDENTITE  *************/
+
+/***GRILLE IDENTIFICATION*******/
+
+
+/****************** indentite *******************/
+
+
+
+
+.blo2{
+    margin-right:10px;
+    width:350px;
+    background-color:rgb(154, 247, 185);
+    padding:2px;
+ 
+}
+
+/****************** indentite *******************/
+
+
+
+/*GRILLE COTATION*/
+
+
+.critere_tache{
+    width:1000px;
+}
+
+
+#Eval_freq{
+   font-size: 0.9em;
+}
+
+
+#Eval_grav{
+   font-size: 0.9em;
+}
+
+
+#Eval_maitrise{
+   font-size: 0.9em;
+}
+
+.dimension{
+  flex-grow:2;
+}
+
+
+
+.bloc_1{
+   padding:10px;
+}
+
+
+#menu_contenu{
+    display:flex;
+     justify-content: space-between;
+}
+
+.menu_content{
+    background-color: rgb(154, 247, 185);
+    padding:10px;
+    font-weight:bold;
+}
+
+
+
+#menu_contenu a{
+   text-align:none;
+}
+
+a:hover{
+    text-align:none;
+}
+
+
+
+#grand_titre{
+    background-color:black;
+    color:white;
+}
+
+#grav_bloc{
+    margin-bottom: 60px;
+}
+
+#entete{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+#gras{
+    margin-bottom: 100px;
+}
+
+
+#Eval_freq{
+
+    display:flex;
+    justify-content: space-around;
+  
+}
+
+
+.left{
+    text-align: left;
+    
+}
+
+.centre{
+    text-align:center;
+}
+
+
+.dimension{
+    width:400px;
+}
+
+#Eval_grav{
+
+    display:flex;
+    justify-content: space-around;
+
+    text-align: center;
+}
+
+
+#Eval_maitrise{
+
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#vert{
+    background-color:rgb(154, 247, 185);
+    padding:20px;
+}
+
+#jaune{
+    background-color:yellow;
+    padding:20px;
+}
+
+#rouge{
+    background-color:red;
+    padding:20px;
+}
+
+#gras{
+    font-weight: bold;
+}
+
+.bleu{
+    color:blue;
+}
+
+.rouge{
+    color:red;
+}
+
+.green{
+    color:green;
+}
+
+
+
+
+/*GRILLE COTATION*/
+
+
+
+
+/***********************tablette****************************/
+@media screen and (min-width:200px) and (max-width:1600px) {
+
+    #premier_bloc_page{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        width:90%;
+    }
+
+    .espace{
+        margin-bottom: 30px;
+     }
+
+    .titre{
+        width:40%
+    }
+
+    #grand_titre{
+   width:40%;
+    }
+
+    /**TABLEAU*/
+    .tableau{
+        display:table;
+        width:50%;
+        background-color: rgb(255, 255, 255);
+        margin:auto;
+        font-family:arial;
+     }
+    /*TABLEAU*/
+
+
+    #bloc_recherche{
+        width:80%;
+      margin-bottom: 20px;
+      
+    }
+
+
+    #barre_recherche{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+
+
+
+    #menu_contenu{
+        display:flex;
+        flex-direction:column;
+        width:87%;
+      
+    }
+
+
+    .menu_content{
+        width:100%;
+    }
+
+
+    #troisieme_bloc_page{
+        width:87%;
+        padding:50px;
+        text-align:justify;
+    }
+
+    body{
+        width:90%; 
+    }
+
+
+    #grand_titre{
+        width:88%;
+    }
+
+    #deuxieme_bloc_page{
+        width:87%;
+        text-align: center;
+    }
+
+    .titre{
+        width:97%;
+    }
+
+
+    .critere_tache{
+         width:1000px;
+        
+
+    }
+
+
+    #Eval_freq{
+        font-size: 0.9em;
+    }
+
+
+    #Eval_grav{
+        font-size: 0.9em;
+    }
+
+
+    #Eval_maitrise{
+        font-size: 0.9em;
+    }
+
+    .dimension{
+       flex-grow:2;
+    }
+
+
+
+    .bloc_1{
+        padding:10px;
+    }
+
+
+    .content_barre_action{
+      display:flex;
+      flex-direction:column;
+    }
+
+    .identif{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+
+    #barre_action{
+        display:flex;
+        flex-direction:rows;
+      
+    }
+
+
+    .content_barre_action{
+        width:700px;
+    }
+     
+   
+
+   .cache{
+    display: none;
+   }
+
+   body{
+    width:100%;
+    padding:10px
+}
+
+
+#bloc_envoyer_conteneur
+{
+   background-color: red;    
+}
+/***********************tablette****************************/
+
+
+
+
+
+
+
+/**************************Smartphone***************************/
+@media screen and (max-width:767px) {
+
+
+
+    #menu_contenu{
+        width:80%;
+        margin:auto;
+    }
+
+
+
+    #bloc_test{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+
+    #bloc_1, #bloc_2, #bloc_3, #bloc_4, #bloc_5, #bloc_6
+    {
+      width:100%;
+      
+    } 
+
+    .titre{
+        width:90%;
+    }
+
+    #grand_titre{
+        width:97%;
+        margin:auto;
+        
+         }
+
+      body{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+         .blo2{
+           width:15%;
+           
+         }
+
+         .dim{
+            width:270px;
+            vertical-align: center;
+         }
+  
+
+             /**TABLEAU*/
+    .tableau{
+        display:table;
+        width:80%;
+        background-color: rgb(248, 248, 248);
+        margin:auto;
+        font-family:arial;
+     }
+
+     .top{
+        margin-top:20px;
+     }
+    /*TABLEAU*/
+
+
+    .cache2{
+        display:none
+    }
+
+    body{
+        width:100%;
+    }
+
+    #troisieme_bloc_page{
+        padding-left: 0px;
+        width:80%;
+        margin:auto;
+    }
+    
+
+/*
+    #premier_bloc_page{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        width:90%;
+    }
+  */
+  
+
+}
+/*********************Smartphone********************************/
+
+
+}
